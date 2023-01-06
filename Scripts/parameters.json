@@ -1,0 +1,31 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "appName":{
+            "value": "zkjAzureTest"
+        },
+        "appSettings":{
+            "value":{
+                "settings":[
+                    {
+                        "name": "t1",
+                        "value": "t1 val"
+                    },
+                    {
+                        "name": "t2",
+                        "value": "t2 val"
+                    },
+                    {
+                        "name": "t3",
+                        "value": "t3 val"
+                    },
+                    {
+                        "name": "AzureTestHarness:ServiceBus:Test1Topic1Name",
+                        "value": "test1-topic1"
+                    }
+                ]
+            }
+        }
+    }
+}
